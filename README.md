@@ -1,4 +1,4 @@
-# Trainer GO Calendar — Final Repository
+# Trainer GO Calendar
 
 A Pokémon-inspired GitHub Pages site and Apple Calendar subscription system for Pokémon GO events.
 
