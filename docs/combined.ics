@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//ReploidNo9//Pokemon GO Calendar//EN
+X-WR-CALNAME:Pokémon GO — Companion Calendar
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:gofest-global-2026@pokemongocalendar
+DTSTAMP:20260710T195319Z
+SUMMARY:🔵 Pokémon GO Fest 2026: Global
+DESCRIPTION:Global event weekend. Stored as an all-day banner so it does 
+ not block the hourly calendar grid.\n\nOfficial information:\nhttps://po
+ kemongo.com/gofest/global
+URL:https://pokemongo.com/gofest/global
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260713
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nickit-community-day-2026@pokemongocalendar
+DTSTAMP:20260710T195319Z
+SUMMARY:🟢 Nickit Community Day
+DESCRIPTION:Community Day event window.\n\nOfficial information:\nhttps:/
+ /pokemongo.com/news/communityday-august-2026-nickit
+URL:https://pokemongo.com/news/communityday-august-2026-nickit
+DTSTART;TZID=America/Chicago:20260816T140000
+DTEND;TZID=America/Chicago:20260816T170000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟢 Nickit Community Day
+END:VALARM
+END:VEVENT
+END:VCALENDAR
