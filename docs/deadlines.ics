@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//ReploidNo9//Trainer GO Calendar//EN
+X-WR-CALNAME:Trainer GO — Deadlines
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:willow-research-deadline-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⏰ Willow Birthday Research Deadline
+DESCRIPTION:Professor Willow’s Birthday Timed Research expires at 8:00 
+ PM local time.\n\nOfficial information:\nhttps://pokemongo.com/news/happ
+ y-birthday-professor-willow-2026
+URL:https://pokemongo.com/news/happy-birthday-professor-willow-2026
+CATEGORIES:Deadline
+DTSTART;TZID=America/Chicago:20260727T193000
+DTEND;TZID=America/Chicago:20260727T200000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:⏰ Willow Birthday Research Deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ozone-ascent-deadline-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⏰ Ozone Ascent Research Deadline
+DESCRIPTION:Both the free and paid Ozone Ascent Timed Research expire at 
+ 8:00 PM local time.\n\nOfficial information:\nhttps://pokemongo.com/news
+ /ozone-ascent-2026
+URL:https://pokemongo.com/news/ozone-ascent-2026
+CATEGORIES:Deadline
+DTSTART;TZID=America/Chicago:20260726T193000
+DTEND;TZID=America/Chicago:20260726T200000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:⏰ Ozone Ascent Research Deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-pass-july-end-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⏰ GO Pass: July Ends
+DESCRIPTION:GO Pass: July ends at 10:00 AM local time.\n\nOfficial inform
+ ation:\nhttps://pokemongo.com/news/go-pass-july-2026
+URL:https://pokemongo.com/news/go-pass-july-2026
+CATEGORIES:Deadline
+DTSTART;TZID=America/Chicago:20260804T093000
+DTEND;TZID=America/Chicago:20260804T100000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:⏰ GO Pass: July Ends
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,258 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//ReploidNo9//Trainer GO Calendar//EN
+X-WR-CALNAME:Trainer GO Calendar
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:gofest-global-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:🌐 Pokémon GO Fest 2026: Global
+DESCRIPTION:Global event weekend. Stored as an all-day banner so it does 
+ not block the hourly calendar grid.\n\nOfficial information:\nhttps://po
+ kemongo.com/gofest/global
+URL:https://pokemongo.com/gofest/global
+CATEGORIES:GO Fest
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260713
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:special-anniversary-pikachu-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⚡ Special Anniversary Pikachu Celebration
+DESCRIPTION:The event runs from July 13 at 10:00 AM through July 20 at 8:
+ 00 PM local time. Open the official page for the rotation schedule and b
+ onuses.\n\nOfficial information:\nhttps://pokemongo.com/news/special-ann
+ iversary-pikachu-celebration
+URL:https://pokemongo.com/news/special-anniversary-pikachu-celebration
+CATEGORIES:Special Event
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260721
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:raichu-super-mega-raid-day-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⚔️ Raichu Super Mega Raid Day
+DESCRIPTION:FEATURED BOSSES: Mega Raichu X and Mega Raichu Y\nSHINY: Raic
+ hu may be Shiny\nFREE PASSES: Up to six from Gym Photo Discs\nNOTE: Coun
+ ter recommendations should be added after the final boss typings and bat
+ tle data are verified.\n\nOfficial information:\nhttps://pokemongo.com/n
+ ews/raichu-super-mega-raid-day-2026
+URL:https://pokemongo.com/news/raichu-super-mega-raid-day-2026
+CATEGORIES:Raid Day
+DTSTART;TZID=America/Chicago:20260718T140000
+DTEND;TZID=America/Chicago:20260718T170000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:⚔️ Raichu Super Mega Raid Day
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:willow-birthday-research-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:🎂 Professor Willow’s Birthday Research
+DESCRIPTION:Free Timed Research is available during the event. Research r
+ ewards include encounters with Professor Willow’s assistant Pikachu\, 
+ a Lucky Egg\, a Star Piece\, and more.\n\nOfficial information:\nhttps:/
+ /pokemongo.com/news/happy-birthday-professor-willow-2026
+URL:https://pokemongo.com/news/happy-birthday-professor-willow-2026
+CATEGORIES:Timed Research
+DTSTART;TZID=America/Chicago:20260721T100000
+DTEND;TZID=America/Chicago:20260721T200000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🎂 Professor Willow’s Birthday Research
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ultra-unlock-anniversary-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:🎉 Ultra Unlock: 10th Anniversary Edition
+DESCRIPTION:This event can receive upgraded bonuses when Trainers complet
+ e the required GO Fest Global Challenges.\n\nOfficial information:\nhttp
+ s://pokemongo.com/news/go-fest-2026-global-final-details
+URL:https://pokemongo.com/news/go-fest-2026-global-final-details
+CATEGORIES:Ultra Unlock
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260728
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:willow-research-deadline-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⏰ Willow Birthday Research Deadline
+DESCRIPTION:Professor Willow’s Birthday Timed Research expires at 8:00 
+ PM local time.\n\nOfficial information:\nhttps://pokemongo.com/news/happ
+ y-birthday-professor-willow-2026
+URL:https://pokemongo.com/news/happy-birthday-professor-willow-2026
+CATEGORIES:Deadline
+DTSTART;TZID=America/Chicago:20260727T193000
+DTEND;TZID=America/Chicago:20260727T200000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:⏰ Willow Birthday Research Deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ozone-ascent-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:☄️ Ozone Ascent
+DESCRIPTION:Free and paid Timed Research are available. The research expi
+ res Sunday\, July 26 at 8:00 PM local time.\n\nOfficial information:\nht
+ tps://pokemongo.com/news/ozone-ascent-2026
+URL:https://pokemongo.com/news/ozone-ascent-2026
+CATEGORIES:Timed Research
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260727
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ozone-ascent-deadline-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⏰ Ozone Ascent Research Deadline
+DESCRIPTION:Both the free and paid Ozone Ascent Timed Research expire at 
+ 8:00 PM local time.\n\nOfficial information:\nhttps://pokemongo.com/news
+ /ozone-ascent-2026
+URL:https://pokemongo.com/news/ozone-ascent-2026
+CATEGORIES:Deadline
+DTSTART;TZID=America/Chicago:20260726T193000
+DTEND;TZID=America/Chicago:20260726T200000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:⏰ Ozone Ascent Research Deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:choose-path-fairy-trail-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:🧚 Choose Your Path: Fairy Trail
+DESCRIPTION:Choose Your Path: Fairy Trail runs from July 28 at 10:00 AM t
+ o August 3 at 8:00 PM local time.\n\nOfficial information:\nhttps://poke
+ mongo.com/news/choose-your-path-forever-forward-2026
+URL:https://pokemongo.com/news/choose-your-path-forever-forward-2026
+CATEGORIES:Timed Research
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260804
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:go-pass-july-unlimited-points-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:🎟️ GO Pass: Unlimited Points Weekend
+DESCRIPTION:There is no daily limit on GO Points from August 1 at 12:00 A
+ M through August 2 at 11:59 PM local time.\n\nOfficial information:\nhtt
+ ps://pokemongo.com/news/go-pass-july-2026
+URL:https://pokemongo.com/news/go-pass-july-2026
+CATEGORIES:GO Pass
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260803
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:go-pass-july-end-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⏰ GO Pass: July Ends
+DESCRIPTION:GO Pass: July ends at 10:00 AM local time.\n\nOfficial inform
+ ation:\nhttps://pokemongo.com/news/go-pass-july-2026
+URL:https://pokemongo.com/news/go-pass-july-2026
+CATEGORIES:Deadline
+DTSTART;TZID=America/Chicago:20260804T093000
+DTEND;TZID=America/Chicago:20260804T100000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:⏰ GO Pass: July Ends
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hatch-day-2026-08-08@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:🥚 August Hatch Day
+DESCRIPTION:Save the date. This entry will be updated when Pokémon GO pu
+ blishes the full Hatch Day announcement.\n\nOfficial information:\nhttps
+ ://pokemongo.com/news/save-the-date-s23
+URL:https://pokemongo.com/news/save-the-date-s23
+CATEGORIES:Hatch Day
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:choose-path-venom-vines-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:🌿 Choose Your Path: Venom and Vines
+DESCRIPTION:Choose Your Path: Venom and Vines runs from August 11 at 10:0
+ 0 AM to August 17 at 8:00 PM local time.\n\nOfficial information:\nhttps
+ ://pokemongo.com/news/choose-your-path-forever-forward-2026
+URL:https://pokemongo.com/news/choose-your-path-forever-forward-2026
+CATEGORIES:Timed Research
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260818
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nickit-community-day-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:🟢 Nickit Community Day
+DESCRIPTION:FEATURED POKÉMON: Nickit\nSHINY: Available\nLURE BONUS: Exte
+ nded through 9:00 PM local time\nOpen the official announcement for full
+  bonuses and the evolution deadline.\n\nOfficial information:\nhttps://p
+ okemongo.com/news/communityday-august-2026-nickit
+URL:https://pokemongo.com/news/communityday-august-2026-nickit
+CATEGORIES:Community Day
+DTSTART;TZID=America/Chicago:20260816T140000
+DTEND;TZID=America/Chicago:20260816T170000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟢 Nickit Community Day
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:water-festival-2026@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:💧 Ultra Unlock: Water Festival
+DESCRIPTION:This event can receive upgraded bonuses when Trainers complet
+ e the required GO Fest Global Challenges.\n\nOfficial information:\nhttp
+ s://pokemongo.com/news/go-fest-2026-global-final-details
+URL:https://pokemongo.com/news/go-fest-2026-global-final-details
+CATEGORIES:Ultra Unlock
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260825
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:super-mega-raid-day-2026-08-22@trainer-go-calendar
+DTSTAMP:20260710T214934Z
+SUMMARY:⚔️ Ultra Unlock: Super Mega Raid Day
+DESCRIPTION:The event date and time are confirmed. The boss\, counters\, 
+ movesets\, shiny status\, and CP values will be added after the full ann
+ ouncement.\n\nOfficial information:\nhttps://pokemongo.com/news/go-fest-
+ 2026-global-final-details
+URL:https://pokemongo.com/news/go-fest-2026-global-final-details
+CATEGORIES:Raid Day
+DTSTART;TZID=America/Chicago:20260822T110000
+DTEND;TZID=America/Chicago:20260822T170000
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:⚔️ Ultra Unlock: Super Mega Raid Day
+END:VALARM
+END:VEVENT
+END:VCALENDAR
