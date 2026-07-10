@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101826">
+<title>Trainer GO Calendar</title>
+<meta name="description" content="A subscription calendar for Pokémon GO events, Raid Hours, Spotlight Hours, and deadlines.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero">
+  <nav class="nav">
+    <a class="brand" href="./"><span class="brand-mark">GO</span><span>Companion Calendar</span></a>
+    <a class="nav-link" href="#subscribe">Subscribe</a>
+  </nav>
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow">Your Trainer Calendar</div>
+      <h1>Plan your next adventure.</h1>
+      <p class="hero-copy">Stay ready for Raid Hours, Community Days, Spotlight Hours, and special events with a calendar built for trainers.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="webcal://reploidno9.github.io/pokemongocalendar/combined.ics">Subscribe to everything</a>
+        <a class="button secondary" href="#upcoming">View upcoming events</a>
+      </div>
+      <p class="microcopy">On iPhone, use a subscribed calendar—not “Add All”—so future updates can refresh automatically.</p>
+    </div>
+    <div class="hero-panel">
+      <div class="status-row"><span class="status-dot"></span><span>Trainer feeds online</span></div>
+      <div class="mini-grid">
+        <div><strong>Events</strong><span>Festivals, Community Days, special events</span></div>
+        <div><strong>Raid Hours</strong><span>Bosses, weaknesses, top counters</span></div>
+        <div><strong>Spotlight</strong><span>Featured Pokémon and bonuses</span></div>
+        <div><strong>Deadlines</strong><span>Research and reward reminders</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="section" id="subscribe">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">Choose your trainer loadout</div>
+      <h2>Build the calendar that fits your play style</h2>
+    </div>
+    <p>Use the combined feed for simplicity, or subscribe separately so you can hide Raid Hours, Spotlight Hours, or deadlines independently.</p>
+  </div>
+  <div class="feed-grid">
+    <article class="feed featured"><div class="feed-icon">✨</div><h3>Master Feed</h3><p>All event types in one subscription.</p><a href="webcal://reploidno9.github.io/pokemongocalendar/combined.ics">Subscribe</a></article>
+    <article class="feed"><div class="feed-icon">📅</div><h3>Events</h3><p>GO Fest, Community Days, Raid Days, and seasonal events.</p><a href="webcal://reploidno9.github.io/pokemongocalendar/events.ics">Subscribe</a></article>
+    <article class="feed"><div class="feed-icon">⚔️</div><h3>Raid Hours</h3><p>Exact event windows with counter notes and movesets.</p><a href="webcal://reploidno9.github.io/pokemongocalendar/raids.ics">Subscribe</a></article>
+    <article class="feed"><div class="feed-icon">⭐</div><h3>Spotlight Hours</h3><p>Featured Pokémon, bonuses, and shiny reminders.</p><a href="webcal://reploidno9.github.io/pokemongocalendar/spotlight.ics">Subscribe</a></article>
+    <article class="feed"><div class="feed-icon">⏰</div><h3>Deadlines</h3><p>Short reminders for research and reward claim cutoffs.</p><a href="webcal://reploidno9.github.io/pokemongocalendar/deadlines.ics">Subscribe</a></article>
+  </div>
+</section>
+
+<section class="section muted" id="upcoming">
+  <div class="section-head">
+    <div><div class="eyebrow">Next encounters</div><h2>Upcoming adventures</h2></div>
+    <p>Event cards are generated from the same data used to build the calendar feeds.</p>
+  </div>
+  <div class="event-list">
+    
+    <article class="event-card" data-category="GO Fest">
+      <div class="event-icon">🌐</div>
+      <div class="event-copy">
+        <div class="event-kicker">GO Fest</div>
+        <h3>Pokémon GO Fest 2026: Global</h3>
+        <p class="event-when">July 11–12, 2026 · 10:00 AM–7:00 PM local time</p>
+        <p>A worldwide GO Fest weekend with special raids, rotating habitats, bonuses, and global challenges.</p>
+        <div class="event-actions">
+          <a href="https://pokemongo.com/gofest/global" target="_blank" rel="noopener">Official details</a>
+        </div>
+      </div>
+    </article>
+    
+
+    <article class="event-card" data-category="Community Day">
+      <div class="event-icon">🟢</div>
+      <div class="event-copy">
+        <div class="event-kicker">Community Day</div>
+        <h3>Nickit Community Day</h3>
+        <p class="event-when">August 16, 2026 · 2:00–5:00 PM local time</p>
+        <p>Nickit takes the spotlight with Community Day bonuses and an exclusive evolution move.</p>
+        <div class="event-actions">
+          <a href="https://pokemongo.com/news/communityday-august-2026-nickit" target="_blank" rel="noopener">Official details</a>
+        </div>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
+<section class="section">
+  <div class="feature-grid">
+    <div><span>⚔️</span><h3>Raid-ready notes</h3><p>Weaknesses, five recommended counters, movesets, and official links can live directly inside each Raid Hour event.</p></div>
+    <div><span>🧭</span><h3>Clean calendar behavior</h3><p>Multi-day events appear as all-day banners. Timed events block only their actual event window.</p></div>
+    <div><span>🔄</span><h3>Stable subscription URLs</h3><p>Future calendar updates publish to the same addresses, allowing Apple Calendar to refresh subscribed feeds.</p></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div><strong>Trainer GO Calendar</strong><p>An independent community calendar project.</p></div>
+  <div><a href="combined.ics">Raw combined feed</a></div>
+</footer>
+</body>
+</html>
